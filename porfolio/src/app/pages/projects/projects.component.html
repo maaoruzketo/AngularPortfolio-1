@@ -1,0 +1,8 @@
+<p>projects works!</p>
+<button #btn type="button" (click)="clickEvent()" class="btn btn-dark">Dark</button>
+<p>Value in button is {{btn.innerText}}</p>
+<button  type="button" #chicken (click)="switch(chicken.value)" class="btn btn-dark">Off</button>
+
+<div *ngIf = "flip">
+    <p>I am visible</p>
+</div>
